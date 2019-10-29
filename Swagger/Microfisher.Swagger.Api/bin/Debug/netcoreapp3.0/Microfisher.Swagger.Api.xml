@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microfisher.Swagger.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Microfisher.Swagger.Api.Controllers.AccountController.Post(Microfisher.Swagger.Api.Models.CreateViewModel)">
+            <summary>
+            创建信息
+            </summary>
+            <param name="createViewModel">参数</param>
+            <returns>状态</returns>
+        </member>
+        <member name="M:Microfisher.Swagger.Api.Controllers.AccountController.Delete(Microfisher.Swagger.Api.Models.DeleteViewModel)">
+            <summary>
+            删除信息
+            </summary>
+            <param name="deleteViewModel">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Microfisher.Swagger.Api.Controllers.AccountController.Get(Microfisher.Swagger.Api.Models.QueryViewModel)">
+            <summary>
+            查询信息
+            </summary>
+            <param name="queryViewModel">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Microfisher.Swagger.Api.Controllers.AccountController.Put(Microfisher.Swagger.Api.Models.UpdateViewModel)">
+            <summary>
+            修改信息
+            </summary>
+            <param name="updateViewModel">参数</param>
+            <returns></returns>
+        </member>
+        <member name="P:Microfisher.Swagger.Api.Models.CreateViewModel.Account">
+            <summary>
+            账号
+            </summary>
+        </member>
+        <member name="P:Microfisher.Swagger.Api.Models.CreateViewModel.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:Microfisher.Swagger.Api.Models.DeleteViewModel.Id">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:Microfisher.Swagger.Api.Models.QueryViewModel.Account">
+            <summary>
+            账号
+            </summary>
+        </member>
+        <member name="P:Microfisher.Swagger.Api.Models.StatusViewModel.Status">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:Microfisher.Swagger.Api.Models.StatusViewModel.Data">
+            <summary>
+            返回数据
+            </summary>
+        </member>
+        <member name="P:Microfisher.Swagger.Api.Models.UpdateViewModel.Id">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:Microfisher.Swagger.Api.Models.UpdateViewModel.Account">
+            <summary>
+            账号
+            </summary>
+        </member>
+        <member name="P:Microfisher.Swagger.Api.Models.UpdateViewModel.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+    </members>
+</doc>
